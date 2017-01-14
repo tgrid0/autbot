@@ -1,0 +1,6 @@
+{
+  "token": "",
+  "auto_kill_post_filter": "---",
+  "auto_kill_post_channel": "---",
+  "zkill_redisq_id" : "somemaybeuniqueid"
+}
