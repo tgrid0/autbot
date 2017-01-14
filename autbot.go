@@ -161,7 +161,7 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 				if gifurl != "nourl" {
 					s.ChannelMessageSend(m.ChannelID, gifurl)
 				} else {
-					s.ChannelMessageSend(m.ChannelId, "Sorry, no gifs were found by tag '" + tag + "'")
+					s.ChannelMessageSend(m.ChannelID, "Sorry, no gifs were found by tag '" + tag + "'")
 				}
 			}
 		} else if command == "help" {
