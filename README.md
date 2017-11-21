@@ -26,7 +26,8 @@ go get github.com/tgrid0/autbot
 go install github.com/tgrid0/autbot
 ```
 
-There is a configuration file, that should be filled with your bot id token, filter string with character, corporation or alliance name (or '---' if not needed), specific channel id to autopost kill ('---' to disable autoposting), and string by that you will be remembered on zZillboard killmail listener. Just rename the `config.example.json` to `config.json`, or copy/paste the following.
+There is a configuration file, that should be filled with your bot id token, filter string 
+with character, corporation or alliance name (or '---' if not needed), specific channel id to autopost kill ('---' to disable autoposting), and string by that you will be remembered on zKillboard killmail listener. Just rename the `config.example.json` to `config.json`, or copy/paste the following.
 
 ```json
 {
